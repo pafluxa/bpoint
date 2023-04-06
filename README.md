@@ -2,9 +2,19 @@
 
 B-Point is a stand-alone pointing library written in C that uses spherical trigonometry instead of quaternions.
 
-The author of this code is Michael "Mike" K. Brewer. Me (Pedro Fluxa), I am a mere maintainer of this repository and the
-code itself so other people can use it in their projects. Thanks Mike!
 
+BPoint was created in the context the Cosmology Large Angular Scale Surveyor. The main purpose was to get a "quaternion-free"
+(and properly documented!) telescope pointing library with the ability to handle boresight rotations, as well as "goodies" 
+such as routines to calculate the "re-centering" focal-plane coordinates to Solar System bodies.
+
+# Authorship
+
+The author of this code is Michael "Mike" K. Brewer,
+
+Me (Pedro Fluxa), I am a mere maintainer of this repository. OK fine, I also wrote a neglible portion of the library and
+the CMake installation files, big deal. I claim no authorship of this library anyways.
+
+_Thanks Mike!_
 # Dependencies
 
 BPoint depends on SOFA (Standards Of Fundamental Astronomy) library, which can be downloaded from
