@@ -3,6 +3,7 @@
 
 #include "jpl_eph.h"
 #include <sofa.h>
+#include <sofam.h>
 
 #define dmin(a,b) ((a) <= (b) ? (a) : (b))
 #define dmax(a,b) ((a) >= (b) ? (a) : (b))

@@ -19,6 +19,7 @@
 #define CLASS_SITE_LAT_RAD  (-22.959748/180.0 * M_PI)
 #define CLASS_SITE_LON_RAD  (-67.787260/180.0 * M_PI)
 #define CLASS_SITE_HEIGHT_M (5186.0)
+
 int main(int argc, char * argv[])
 {
   //char eph_file[120] = "jpleph_1950_2050.440";
@@ -60,7 +61,8 @@ int main(int argc, char * argv[])
   double yp_start = 0.3846030;
   double yp_stop  = 0.3865750;
   //
-  BPoint bp(eph_file, CLASS_SITE_LON_RAD, CLASS_SITE_LAT_RAD, CLASS_SITE_HEIGHT_M, CLK_UTC, true, true);
+  //BPoint bp(eph_file, CLASS_SITE_LON_RAD, CLASS_SITE_LAT_RAD, CLASS_SITE_HEIGHT_M, CLK_UTC, true, true);
+  BPoint bp(argv[1], CLASS_SITE_LON_RAD, CLASS_SITE_LAT_RAD, CLASS_SITE_HEIGHT_M, CLK_UTC, true, false);
 
   double * ct       = (double*)malloc( sizeof(double) * nsamples );
   double * az_ac    = (double*)malloc( sizeof(double) * nsamples );

@@ -8,7 +8,9 @@
 
 // Defining HIGH_PRECISION true will reduce the error from around 50 mas to
 // less than 1 mas at the cost of about a 10% increase in execution time.
+#ifdef USE_HIGH_PRECISION
 #define HIGH_PRECISION true
+#endif
 
 BPoint::BPoint(char *ephem_path, double longitude, double lat, double height,
                ClockType clock, bool interp, bool dbg) 
