@@ -11,10 +11,14 @@ such as routines to calculate the "re-centering" focal-plane coordinates to Sola
 
 The author of this code is Michael "Mike" K. Brewer,
 
-Me (Pedro Fluxa), I am a mere maintainer of this repository. OK fine, I also wrote a neglible portion of the library and
-the CMake installation files, big deal. I claim no authorship of this library anyways.
+Me (Pedro Fluxa), I am a mere maintainer of this repository. 
 
-_Thanks Mike!_
+OK fine, I also wrote a neglible portion of the library and the CMake installation files, _big deal_. 
+
+I claim no authorship of this library anyways.
+
+**Thanks Mike!**
+
 # Dependencies
 
 BPoint depends on SOFA (Standards Of Fundamental Astronomy) library, which can be downloaded from
