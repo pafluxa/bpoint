@@ -15,7 +15,7 @@ Me (Pedro Fluxa), I am a mere maintainer of this repository.
 
 OK fine, I also wrote a neglible portion of the library and the CMake installation files, _big deal_. 
 
-I claim no authorship of this library anyways.
+**I claim no authorship for this library in any way**
 
 **Thanks Mike!**
 
